@@ -4,6 +4,7 @@ const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 const connectDB = require("./config/db");
+const { createProxyMiddleware } = require("http-proxy-middleware");
 const PORT = 4000 || process.env.PORT;
 
 connectDB();

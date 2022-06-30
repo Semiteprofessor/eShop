@@ -24,7 +24,7 @@ const createOrder = (order) => async (dispatch, getState) => {
 
 const listMyOrders = () => async (dispatch, getState) => {
 	try {
-		dispatch({ type: actionTypes.MY_ORDER_LIST_REQUEST });
+		dispatch({ type: actionTypes.MY_ORDER_LIST_REQUEST }); 
 		const {
 			userSignin: { userInfo },
 		} = getState();

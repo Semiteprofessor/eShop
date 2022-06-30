@@ -78,6 +78,7 @@
             left: -300px;
             transition: 300ms ease left;
             flex-direction: column-reverse;
+            z-index: 100;
 
             ul {
                 flex-direction: column;

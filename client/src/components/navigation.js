@@ -131,7 +131,8 @@ export default function Navigation() {
 						type="search"
 						name="search"
 						className="search-field"
-						placeholder="Enter your product name..."
+						placeholder="Enter product name..."
+						autoComplete="off"
 					/>
 
 					<button class="search-btn">
@@ -141,7 +142,7 @@ export default function Navigation() {
 				<div className="menu-content-container">
 					<ul class="desktop-menu-category-list">
 						<li className="menu-category">
-							<a href="#" className="menu-title">
+							<a href="/" className="menu-title">
 								Home
 							</a>
 						</li>

@@ -102,6 +102,9 @@ const Announcement = () => {
 					</svg>
 					<div id="hours">00</div>
 				</div>
+				<div className="divider1">
+					:
+				</div>
 				<div className="circle b">
 					<div className="dots b mm_dot"></div>
 					<svg>
@@ -109,6 +112,9 @@ const Announcement = () => {
 						<circle cx="50" cy="75" r="25" id="mm"></circle>
 					</svg>
 					<div id="minutes">00</div>
+				</div>
+				<div className="divider2">
+					:
 				</div>
 				<div className="circle c">
 					<div className="dots c ss_dot"></div>

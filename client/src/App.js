@@ -11,6 +11,7 @@ import Footer from "./components/footer";
 
 // Pages
 import Home from "./pages/home";
+import ProductDetails from "./pages/product-details";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
         <Navigation />
         <Slider />
         <Switch>
-          <Route path="/" component={Home} />
+          <Route exact path="/" component={Home} />
+          <Route path="/:product-details" component={ProductDetails} />
           <Route component={() => 404} />
         </Switch>
         <Footer />

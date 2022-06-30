@@ -25,8 +25,8 @@ import {
 	orderDeleteReducer,
 } from "./reducers/orderReducers";
 
-const cartItems = Cookie.JSON("cartItems") || [];
-const userInfo = Cookie.JSON("userInfo") || null;
+const cartItems = Cookie.get("cartItems") || [];
+const userInfo = Cookie.get("userInfo") || null;
 
 const initialState = {
 	cart: { cartItems, shipping: {}, payment: {} },
